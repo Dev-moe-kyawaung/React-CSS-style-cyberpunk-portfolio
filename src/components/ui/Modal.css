@@ -80,3 +80,35 @@
   color: var(--primary);
   text-decoration: underline;
 }
+/* modal media layout */
+.modal-media {
+  margin-bottom: 1.2rem;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid rgba(0, 217, 255, 0.2);
+}
+
+.modal-preview-image {
+  width: 100%;
+  height: auto;
+  max-height: 40vh;
+  object-fit: cover;
+  display: block;
+  filter: contrast(1.1) brightness(0.95);
+}
+
+/* GitHub avatars */
+.modal-avatar-row {
+  display: flex;
+  gap: 0.8rem;
+  margin: 1.2rem 0;
+  align-items: center;
+}
+
+.modal-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid var(--primary);
+  box-shadow: 0 0 10px rgba(0, 217, 255, 0.2);
+}
