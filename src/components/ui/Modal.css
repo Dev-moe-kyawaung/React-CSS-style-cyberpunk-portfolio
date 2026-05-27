@@ -75,3 +75,8 @@
 .modal-content::-webkit-scrollbar {
   display: none;
 }
+
+.link-in-modal {
+  color: var(--primary);
+  text-decoration: underline;
+}
