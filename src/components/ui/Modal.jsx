@@ -1,3 +1,4 @@
+// src/components/ui/Modal.jsx
 import React from "react";
 import "./Modal.css";
 
@@ -11,9 +12,7 @@ export default function Modal({ isOpen, onClose, title, children }) {
           <h2 className="modal-title">{title}</h2>
           <button className="modal-close" onClick={onClose}>✕</button>
         </div>
-        <div className="modal-body">
-          {children}
-        </div>
+        <div className="modal-body">{children}</div>
         <div className="modal-footer">
           <button className="btn btn-primary" onClick={onClose}>
             Close
